@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default activity_bar_main margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- margins and paddings, n x 2dp -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_xsmall">4dp</dimen>
+
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+            https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="small">8dp</dimen>
+
+    <!--WELCOME SCREEN-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+
+    <dimen name="text_standar_to_medium">16sp</dimen>
+    <dimen name="text_more_medium">20sp</dimen>
+    <dimen name="text_medium_to_big">24sp</dimen>
+    <dimen name="text_lower_big">26sp</dimen>
+    <dimen name="text_small">8sp</dimen>
+    <dimen name="text_small_to_middle">10sp</dimen>
+    <dimen name="text_middle">12sp</dimen>
+    <dimen name="text_standar">14sp</dimen>
+    <dimen name="text_standar_to_default">15sp</dimen>
+    <dimen name="text_verysmall">4sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_large">32sp</dimen>
+
+    <dimen name="text_big">28sp</dimen>
+
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="very_litle">2dp</dimen>
+    <dimen name="little">4dp</dimen>
+    <dimen name="little_to_small">6dp</dimen>
+    <dimen name="small_to_medium">12dp</dimen>
+    <dimen name="negative_small">-8dp</dimen>
+    <dimen name="medium_lower">14dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="medium_to_big">20dp</dimen>
+    <dimen name="big">24dp</dimen>
+    <dimen name="big_to_large">28dp</dimen>
+    <dimen name="large">32dp</dimen>
+    <dimen name="above_large">40dp</dimen>
+    <dimen name="large_to_x">48dp</dimen>
+    <dimen name="xlarge">56dp</dimen>
+    <dimen name="verylarge">64dp</dimen>
+    <dimen name="xverylarge">96dp</dimen>
+    <dimen name="x_to_xxverylarge">164dp</dimen>
+    <dimen name="xxverylarge">192dp</dimen>
+    <dimen name="profile_weight">96dp</dimen>
+    <dimen name="thumbnail_medium">96dp</dimen>
+    <dimen name="thumbnail_small">48dp</dimen>
+    <dimen name="line">0.5dp</dimen>
+    <dimen name="line_standard">1dp</dimen>
+    <dimen name="line_middle">2dp</dimen>
+    <dimen name="line_big">4dp</dimen>
+    <dimen name="image_picker_width">128dp</dimen>
+
+    <dimen name="fab_normal">56dp</dimen>
+    <dimen name="fab_mini">48dp</dimen>
+    <dimen name="fab_xmini">36dp</dimen>
+
+    <dimen name="banner_height">130dp</dimen>
+    <dimen name="home_height">330dp</dimen>
+
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_160">160dp</dimen>
+    <dimen name="margin_250">250dp</dimen>
+    <dimen name="margin_300">300dp</dimen>
+    <dimen name="margin_320">320dp</dimen>
+    <dimen name="margin_360">360dp</dimen>
+
+    <dimen name="edittext_height">36dp</dimen>
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="small_button_height">32dp</dimen>
+
+
+    <!-- margins and paddings, n x 2dp -->
+    <dimen name="margin_micro">0.5dp</dimen>
+    <dimen name="margin_verytiny">1dp</dimen>
+    <dimen name="margin_tiny">2dp</dimen>
+    <dimen name="margin_verysmall">4dp</dimen>
+    <dimen name="margin_xxsmall">2dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_xlarge_min">-64dp</dimen>
+    <dimen name="margin_xlarge">56dp</dimen>
+    <dimen name="margin_verylarge">64dp</dimen>
+    <dimen name="margin_huge">128dp</dimen>
+    <dimen name="margin_middle_huge">196dp</dimen>
+    <dimen name="margin_very_huge">256dp</dimen>
+    <dimen name="margin_small_to_medium">12dp</dimen>
+    <dimen name="margin_big">24dp</dimen>
+
+
+    <dimen name="floating_button_size">60dp</dimen>
+    <dimen name="button_elevation">1dp</dimen>
+    <dimen name="button_press_elevation">18dp</dimen>
+    <dimen name="card_elevation">1dp</dimen>
+    <dimen name="card_corner_radius">0dp</dimen>
+
+    <dimen name="activity_right_margin">10dp</dimen>
+    <dimen name="activity_left_margin">10dp</dimen>
+    <dimen name="icon_width">60dip</dimen>
+    <dimen name="icon_height">60dip</dimen>
+    <dimen name="icon_padding">8dp</dimen>
+    <dimen name="card_height">250dip</dimen>
+    <dimen name="text_size">18sp</dimen>
+
+    <!--NAVIGATION DRAWER-->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+        <!-- Default screen margins, per the Android Design guidelines. -->
+        <dimen name="item_offset">10dp</dimen>
+        <dimen name="detail_backdrop_height">250dp</dimen>
+        <dimen name="backdrop_title">30dp</dimen>
+        <dimen name="backdrop_subtitle">18dp</dimen>
+        <dimen name="card_margin">5dp</dimen>
+        <dimen name="card_album_radius">0dp</dimen>
+        <dimen name="album_cover_height">160dp</dimen>
+        <dimen name="album_title_padding">10dp</dimen>
+        <dimen name="album_title">15dp</dimen>
+        <dimen name="songs_count_padding_bottom">5dp</dimen>
+        <dimen name="songs_count">12dp</dimen>
+        <dimen name="ic_album_overflow_width">20dp</dimen>
+        <dimen name="ic_album_overflow_height">30dp</dimen>
+        <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+
+</resources>

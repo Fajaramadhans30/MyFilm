@@ -1,0 +1,67 @@
+ext {
+    supportLibraryVersion = '26.1.0'
+    retrofitVersion = '2.3.0'
+    googleVersion='11.4.2'
+    firebaseVersion = '3.0.0'
+    twitterVersion='3.1.1'
+    androidArch='1.0.0'
+    dependencies = [
+            appCompat: "com.android.support:appcompat-v7:$supportLibraryVersion",
+            support:"com.android.support:support-v4:$supportLibraryVersion",
+            percent:"com.android.support:percent:$supportLibraryVersion",
+            multidex:"com.android.support:multidex:1.0.1",
+            design:"com.android.support:design:$supportLibraryVersion",
+            cardView: "com.android.support:cardview-v7:25.3.1",
+            gson:"com.google.code.gson:gson:2.8.0",
+            recyclerView: "com.android.support:recyclerview-v7:$supportLibraryVersion",
+            gridLayout:"com.android.support:gridlayout-v7:$supportLibraryVersion",
+            supportVectorDrawable:"com.android.support:support-vector-drawable:$supportLibraryVersion",
+            flexBox:"com.google.android:flexbox:0.3.1",
+            retrofit: "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            retrofitConverterGson: "com.squareup.retrofit2:converter-gson:$retrofitVersion",
+            retrofitConverterScalars:"com.squareup.retrofit2:converter-scalars:$retrofitVersion",
+            retrofitAdapterRxJava: "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion",
+            constraintLayout:"com.android.support.constraint:constraint-layout:1.0.2",
+            maps:"com.google.android.gms:play-services-maps:$googleVersion",
+            mapsUtil: "com.google.maps.android:android-maps-utils:0.5+",
+            location:"com.google.android.gms:play-services-location:$googleVersion",
+            firebaseAuth:"com.firebaseui:firebase-ui-auth:$firebaseVersion",
+            firebaseDatabase:"com.firebaseui:firebase-ui-database:$firebaseVersion",
+            firebaseMessaging:"com.google.firebase:firebase-messaging:$googleVersion",
+//            firebaseUI:"com.google.firebase:firebase-ui:$googleVersion",
+            playServicePlus:"com.google.android.gms:play-services-plus:$googleVersion",
+            playServiceAuth:"com.google.android.gms:play-services-auth:$googleVersion",
+            playServiceBase:"com.google.android.gms:play-services-base:$googleVersion",
+            glide:"com.github.bumptech.glide:glide:3.8.0",
+            facebookAndroidSdk:"com.facebook.android:facebook-android-sdk:4.28.0",
+            picasso: 'com.squareup.picasso:picasso:2.5.2',
+            rxAndroid: 'io.reactivex.rxjava2:rxandroid:2.0.1',
+            rxJava:'io.reactivex.rxjava2:rxjava:2.1.0',
+            circleImageView: 'de.hdodenhof:circleimageview:2.1.0',
+            jUnit: 'junit:junit:4.12',
+            mockito: 'org.mockito:mockito-core:1.10.19',
+            robolectric: 'org.robolectric:robolectric:3.0',
+            annca:'io.github.memfis19:annca:0.3.7',
+            androidImageCropper: 'com.theartofdev.edmodo:android-image-cropper:2.5.1',
+            imageZoom: 'it.sephiroth.android.library.imagezoom:imagezoom:+',
+            pageIndicator: 'com.romandanylyk:pageindicatorview:0.2.0@aar',
+            materialRatingBar: 'me.zhanghai.android.materialratingbar:library:1.0.2',
+            sliderLibrary:'com.daimajia.slider:library:1.1.5',
+            twitterCore: 'com.twitter.sdk.android:twitter-core:3.1.1',
+            tweetUi: 'com.twitter.sdk.android:tweet-ui:3.1.1',
+            glideTransformations:'jp.wasabeef:glide-transformations:2.0.1',
+            roundedimageview:'com.makeramen:roundedimageview:2.3.0',
+            commonsLang:'org.apache.commons:commons-lang3:3.4',
+            autofittextview:'me.grantland:autofittextview:0.2.1',
+            isoparser:'com.googlecode.mp4parser:isoparser:1.1.20',
+            androidGifDrawable:'pl.droidsonroids.gif:android-gif-drawable:1.1.16',
+            paletteV7:"com.android.support:palette-v7:$supportLibraryVersion",
+            lifecycleExtensions:"android.arch.lifecycle:extensions:$androidArch",
+            roomRuntime: "android.arch.persistence.room:runtime:$androidArch",
+            lifecycleRuntime:"android.arch.lifecycle:runtime:$androidArch",
+            roomCompiler:"android.arch.persistence.room:compiler:$androidArch",
+            lifecycleCompiler:"android.arch.lifecycle:compiler:$androidArch"
+
+
+    ]
+}

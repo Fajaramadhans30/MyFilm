@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--<color name="colorPrimary">#00276e</color>-->
+    <!--<color name="colorPrimaryDark">#000046</color>-->
+    <!--<color name="colorAccent">#fff</color>-->
+
+    <color name="colorPrimary">#171717</color>
+    <color name="colorPrimaryDark">#1a1a1b</color>
+    <color name="colorAccent">#fff</color>
+    <color name="colorOpacitu">#8c000000</color>
+    <color name="colorOpaciti">#50ffffff</color>
+    <color name="colorOpaciti2">#444b4e</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="shadow">#ccababab</color>
+    <color name="black">#000</color>
+
+    <color name="white">#ffffff</color>
+
+
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="darkblue">#0f1322</color>
+    <color name="testcolorblue">#0006bc</color>
+    <color name="pink">#fff</color>
+
+    <!-- Use with black text -->
+    <color name="teal_100">#b4dfb2</color> <!-- Use with black text -->
+    <color name="teal_200">#80cbc4</color> <!-- Use with black text -->
+    <color name="teal_300">#4db6ac</color> <!-- Use with black text -->
+    <color name="teal_400">#26a69a</color> <!-- Use with black text -->
+    <color name="teal_500">#129600</color> <!-- Use with white text -->
+    <color name="teal_600">#00897b</color> <!-- Use with white text -->
+    <color name="teal_700">#00796b</color> <!-- Use with white text -->
+    <color name="teal_800">#00695c</color> <!-- Use with white text -->
+    <color name="teal_900">#004d40</color> <!-- Use with white text -->
+    <!-- Use with black text -->
+    <!-- Use with black text -->
+    <!-- Use with black text -->
+    <!-- Use with black text -->
+
+    <color name="green">#08e211</color>
+    <color name="warnaBebas">#f8ff4400</color>
+    <color name="red">#ff0004</color>
+    <color name="orange">#ff4400</color>
+    <color name="purple">#8800ff</color>
+    <color name="blue_sky">#00baff</color>
+    <color name="blue_black">#0c2e57</color>
+    <color name="graySoft">#f2f2f2</color>
+    <color name="gray">#b6b1ac</color>
+    <color name="gray2">#E0E0E0</color>
+    <color name="gray_dark">#302f2f</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <!-- Color Cardview -->
+
+
+    <color name="blues">#2196F3</color>
+
+
+    <color name="indigo_500">#3f51b5</color>
+    <color name="indigo_700">#303f9f</color>
+    <color name="cyan_500">#00bcd4</color>
+
+    <color name="transparent_button_pressed">#44444444</color>
+    <color name="transparent_button_focused">#44666666</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrapeFruit">#ED5565</color>
+    <color name="colorGrapeFruitDark">#DA4453</color>
+    <color name="colorBitterSweet">#FC6E51</color>
+    <color name="colorBitterSweetDark">#E9573F</color>
+    <color name="colorFlower">#FFCE54</color>
+    <color name="colorFlowerDark">#F68B42</color>
+    <color name="colorGrass">#A0D468</color>
+    <color name="colorGrassDark">#8CC152</color>
+    <color name="colorBlueJeans">#509CEC</color>
+    <color name="colorBlueJeansDark">#4A89DC</color>
+    <color name="colorLavander">#AC92EC</color>
+    <color name="colorLavanderDark">#967ADC</color>
+    <color name="colorMint">#48CFAD</color>
+    <color name="colorMintDark">#37BC9B</color>
+    <color name="colorAqua">#4FC1E9</color>
+    <color name="colorAquaDark">#3BAFDA</color>
+    <color name="colorPinkRose">#EC87C0</color>
+    <color name="colorPinkRoseDark">#D770AD</color>
+
+
+    <!--WELCOME SCREEN-->
+    <!-- Screens background color-->
+    <color name="bg_screen1">#4e0101</color>
+    <color name="bg_screen2">#004300</color>
+    <color name="bg_screen3">#008B8B</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#FFFFF0</color>
+    <color name="dot_dark_screen2">#FFFFF0</color>
+    <color name="dot_dark_screen3">#FFFFF0</color>
+    <color name="dot_dark_screen4">#FFFFF0</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#A9A9A9</color>
+    <color name="dot_light_screen2">#A9A9A9</color>
+    <color name="dot_light_screen3">#A9A9A9</color>
+    <color name="dot_light_screen4">#A9A9A9</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+    <color name="primary_material_dark" tools:ignore="PrivateResource">#2a3a93</color>
+    <color name="bg_bubble_self">#E1E1E1</color>
+    <color name="bg_bubble_date">#97dfed</color>
+    <color name="white_yellow">#f2ecca</color>
+
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#172178</color>
+    <color name="gradStart">#5b629e</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+
+    <color name="accent">#607D8B</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="primary">#00BCD4</color>
+    <color name="primary_dark">#0097A7</color>
+    <color name="primary_light">#B2EBF2</color>
+</resources>

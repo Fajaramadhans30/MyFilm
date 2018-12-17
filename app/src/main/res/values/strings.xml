@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Film</string>
+    <string name="title">Title</string>
+    <string name="backdrop_title">My Film</string>
+    <string name="backdrop_subtitle">Find your film</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+</resources>

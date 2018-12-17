@@ -1,0 +1,142 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.pttelectg.androidtest"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 18
+        versionName "1.1.4-prod"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        /*externalNativeBuild {
+            cmake {
+                cppFlags "-frtti -fexceptions"
+            }
+        }*/
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+    dataBinding {
+        enabled = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            lintOptions {
+                disable 'MissingTranslation'
+            }
+
+        }
+
+        debug {
+            ext.enableCrashlytics = false
+            ext.alwaysUpdateBuildId = false
+        }
+    }
+    /* externalNativeBuild {
+         cmake {
+             path "CMakeLists.txt"
+         }
+     }*/
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "2g"
+//        javaMaxHeapSize "4g"
+        preDexLibraries true
+        maxProcessCount 2
+
+    }
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+        exclude 'META-INF/LICENSE'
+    }
+
+    flavorDimensions "server"
+    productFlavors {
+        // When building a variant that uses this flavor, the following configurations
+        // override those in the defaultConfig block.
+        dev {
+            // To avoid using legacy multidex when building from the command line,
+            // set minSdkVersion to 21 or higher. When using Android Studio 2.3 or higher,
+            // the build automatically avoids legacy multidex when deploying to a device running
+            // API level 21 or higher—regardless of what you set as your minSdkVersion.
+            minSdkVersion 16
+            versionNameSuffix "-dev"
+//            applicationIdSuffix '.dev'
+
+            // The following configuration limits the "dev" flavor to using
+            // English stringresources and xxhdpi screen-density resources.
+            resConfigs "en"
+            dimension "server"
+        }
+
+        prod {
+            // If you've configured the defaultConfig block for the release version of
+            // your app, you can leave this block empty and Gradle uses configurations in
+            // the defaultConfig block instead. You still need to create this flavor.
+            // Otherwise, all variants use the "dev" flavor configurations.
+            dimension "server"
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+
+dependencies {
+    Map<String, String> dependencies = rootProject.ext.dependencies
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+//    implementation project(':basestyle')
+    implementation dependencies.constraintLayout
+    implementation dependencies.maps
+    implementation dependencies.mapsUtil
+    implementation dependencies.location
+    implementation dependencies.commonsLang
+    implementation dependencies.imageZoom
+    implementation dependencies.percent
+    implementation dependencies.pageIndicator
+    implementation dependencies.materialRatingBar
+    implementation dependencies.circleImageView
+    implementation dependencies.playServicePlus
+    implementation dependencies.facebookAndroidSdk
+    implementation dependencies.playServiceAuth
+    implementation dependencies.roundedimageview
+    implementation dependencies.appCompat
+    implementation dependencies.design
+    implementation dependencies.picasso
+    implementation dependencies.support
+    implementation dependencies.recyclerView
+    implementation dependencies.flexBox
+    implementation dependencies.glide
+    implementation dependencies.constraintLayout
+    implementation dependencies.retrofit
+    implementation dependencies.gson
+    implementation dependencies.location
+    implementation dependencies.retrofitConverterGson
+    implementation dependencies.retrofitAdapterRxJava
+    implementation dependencies.rxAndroid
+    implementation dependencies.rxJava
+    implementation dependencies.retrofitConverterScalars
+    testImplementation 'junit:junit:4.12'
+
+    implementation dependencies.lifecycleExtensions
+    implementation dependencies.roomRuntime
+    annotationProcessor dependencies.roomCompiler
+
+    implementation 'com.squareup.okhttp3:okhttp:3.6.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+
+}
